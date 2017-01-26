@@ -1,8 +1,47 @@
 html {
-  font-size: 18px;}
+  font-size: 18px;
+  }
 body {
-  font-family: 'Arsenal', sans-serif;}
-h1 {
+  font-family: 'Arsenal', sans-serif;
+  background: linear-gradient(#ffffff, #e0fff0);
+  }
+h1, h2 {
   font-family: 'Slabo 27px', serif;
-  font-weight: bold;}
-
+  font-weight: bold;
+  }
+.offscreen {
+  position: absolute;
+  left: -1000000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  }
+.jumbotron {
+  background-image: url(../images/responsive-design.jpg);
+  background-repeat: no-repeat;
+  background-position: center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+hr{
+  width: 80%;
+  }
+footer ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  background: #e1ffc6;
+  line-height: 2rem;
+  }
+form {
+  background: white;
+  padding: 1.5em;
+  border: 0.1em solid black;
+  margin: 1.5em;
+  }
+legend {
+  font-size: 100%;
+  }
